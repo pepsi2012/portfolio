@@ -47,13 +47,12 @@ export function projectsSectionFunctionality(){
             <p class="project-description semi-transparent-word">
               ${project.description}
             </p>
-            <button class="call-to-action-btn">Visit Site</button>
           </div>
           <div class="fade-bgColor"></div>
           <div class="container image-and-result">   
             <img class="project-image" src="images and icons/icons/${project.image}" alt="proj-img" />
           </div>
-        </div>
+       </div>
     `
   });
   

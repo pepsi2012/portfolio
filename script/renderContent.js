@@ -5,7 +5,7 @@ export function RenderContent(){
   const homeDetails = {
     greetTxt: `Hello visitor, I'm`,
     name: 'Marks Bihanovs',
-    profilePhoto: 'profile.jpg',
+    profilePhoto: 'котик.jpeg',
     welcomeTxt: 'Welcome to my personal website.',
     fbLink: '',
     tiktokLink: '',
@@ -47,7 +47,7 @@ export function RenderContent(){
 
    // ----------------RENDERING ABOUT SECTION-------------------//
    const aboutDetails = {
-    myPhoto: 'profile.jpg',
+    myPhoto: 'котик.jpeg',
     aboutMeFirstPrgrph: `I am a bachelor in electrical communications engineering and finished vocational school with profession of computer technician.`,
     aboutMeSecondPrgrph: `Currently work as a medium-voltage electrical cable installer with field experience of 1 year. Since I do have education in both computers and networking I've decided to become a system and network administrator.`
    }
