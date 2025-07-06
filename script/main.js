@@ -19,15 +19,10 @@ animation();
 
 
 const sections = document.querySelectorAll('section:not(#home-section)');
-const seeMoreBtn =document.querySelector('.see-more-btn');
+sections.forEach(section => {
+  section.style.display = 'inherit';
+});
 
-
-seeMoreBtn.addEventListener('click', ()=>{
-  seeMoreBtn.style.display = 'none';
-  sections.forEach(section => {
-    section.style.display = 'inherit'
-  })
-})
 
 // glowing background
 const glowingDotsHTML = `
